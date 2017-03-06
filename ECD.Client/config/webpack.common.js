@@ -391,7 +391,7 @@ module.exports = function (options) {
         //filename: "[name].bundle.js"
         path: './wwwroot/dist',
         filename: "[name].bundle.js",
-
+        publicPath: './wwwroot/dist'
         //Just added this
         //publicPath: './wwwroot/dist/',
         //chunkFilename: "[id].bundle.js"
